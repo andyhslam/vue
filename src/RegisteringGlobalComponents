@@ -1,0 +1,19 @@
+function capitalizeFirstLetter (string) {
+  return string.charAt(0).toUpperCase() + string.slice(1)
+}
+
+const components = {}
+const commonCmptFiles = require.context('./common', false, /\.vue$/) // 找到components/common文件夹下以.vue命名的文件
+commonCmptFiles.keys().forEach(fileName => {
+  const componentConfig = commonCmptFiles(fileName)
+  const componentName = capitalizeFirstLetter(fileName.replace(/^\.\//, '').replace(/\.\w+$/, '')) // 提取文件名
+  components[componentName] = componentConfig.default // 以文件名作为组件名
+})
+
+export default {
+  install (Vue, options) {
+    Object.keys(components).forEach(cmptName => {
+      Vue.component(cmptName, components[cmptName]) // 注册全局组件
+    })
+  }
+}
