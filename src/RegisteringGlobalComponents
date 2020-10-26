@@ -1,3 +1,4 @@
+// 參考網址 https://juejin.im/post/6844903583113019405
 // 首字母大寫
 function capitalizeFirstLetter (string) {
   return string.charAt(0).toUpperCase() + string.slice(1)
