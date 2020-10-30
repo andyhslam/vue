@@ -1,0 +1,9 @@
+https://juejin.im/post/6844904071518748679  完整示例理解vue的.sync修饰符
+http://blog.sina.com.cn/s/blog_13d06fc1f0102wzfr.html  vue中异步函数async和await的用法
+https://www.cnblogs.com/lemoncool/p/12746217.html  vue项目中使用bpmn-节点篇（为节点添加点击事件、根据id找节点实例、更新节点名字、获取指定类型的所有节点）
+https://www.cnblogs.com/CyLee/p/10006065.html  Vue style 深度作用选择器 >>> 与 /deep/（sass/less）
+https://www.jianshu.com/p/ff8541e0976a  vue-axios interceptors(拦截器)实际应用
+https://www.jianshu.com/p/cf03693f69cf  Axios全攻略 nodejs 模块 ，用于请求后台数据
+https://juejin.im/post/6844903583113019405  带表达式的 require 语句require.context
+https://www.cnblogs.com/AhuntSun-blog/p/13521098.html  Element-UI参数与注意事项
+https://blog.csdn.net/baidu_41921865/article/details/88692690?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param  keep-alive用法及（activated,deactivated生命周期）
